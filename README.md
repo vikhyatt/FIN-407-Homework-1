@@ -8,32 +8,17 @@ This repository contains three Python files: `task1.py`, `task2.py`, and `task3.
 
 ## Tasks
 
-### Task 1:  Implementing a Custom List (`task1.py`)
+### Task 1:  Implementing a Custom List (`task1.py`) [40 points]
 
 In this task, you will implement a custom list class called CustomList, mimicking some of the behavior of Python's built-in list. You will work with dunder (magic) methods to enable operations like indexing, length retrieval, and string representation.
 
-* Implement methods for appending, removing, and accessing elements.
-* Define dunder methods to support operations like addition and length retrieval.
-* Ensure that your class behaves similarly to Python's built-in list.
-
-### Task 2: NumPy Operations (`task2.py`)
+### Task 2: NumPy Operations (`task2.py`) [30 points]
 
 This task introduces you to NumPy arrays and their operations. You will complete the NumPyArray class, which wraps around a NumPy array and provides various functionalities.
 
-* Implement methods to return the shape of the array.
-* Calculate the mean of the array without using np.mean.
-* Implement element-wise multiplication and dot product operations.
-* Ensure that all operations handle different shapes and edge cases properly
-
-### Task 3: Data Processing with Pandas (`task3.py`)
+### Task 3: Data Processing with Pandas (`task3.py`) [30 points]
 
 In this task, you will work with a Pandas DataFrame to process student data. The StudentDataProcessor class helps clean and analyze student records.
-
-* Fill missing values in the Age column with the median age.
-* Drop rows where Math_Score is missing.
-* Implement a method to return students who enrolled after a given date.
-* Ensure the data is clean and ready for analysis.
-
 
 ## Submission
 
