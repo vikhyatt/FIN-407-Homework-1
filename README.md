@@ -8,11 +8,11 @@ This repository contains two Python files: `task1.py` and `task2.py`. Each file 
 
 ## Tasks
 
-### Task 1: NumPy Operations (`task2.py`) [30 points]
+### Task 1: NumPy Operations (`task1.py`) [50 points]
 
 This task introduces you to NumPy arrays and their operations. You will complete the NumPyArray class, which wraps around a NumPy array and provides various functionalities.
 
-### Task 2: Data Processing with Pandas (`task3.py`) [30 points]
+### Task 2: Data Processing with Pandas (`task2.py`) [50 points]
 
 In this task, you will work with a Pandas DataFrame to process student data. The StudentDataProcessor class helps clean and analyze student records.
 
