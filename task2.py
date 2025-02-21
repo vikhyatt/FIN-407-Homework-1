@@ -11,15 +11,26 @@ class NumPyArray:
 
     def shape(self):
         """Return the shape of the array."""
-        return # TODO: Return the shape
+        return # TODO: Return the shape of the numpy array
 
     def mean(self):
         """Compute the mean (without using np.mean)."""
-        return # TODO: Compute mean using vectorized operations only
+        return # TODO: Compute mean using vectorized operations only. Do not use np.mean() or arr.mean()
 
     def standard_deviation(self):
         """Compute standard deviation (without using np.std)."""
-        return # TODO: Implement without np.std
+        return # TODO: Implement without np.std or arr.std()
+    
+    def is_equal(self, arr):
+        """Check if our array is equal another array arr. Return True or False"""
+        return # TODO: Implement without using np.equal
+    
+    def matching_elements_count(self, arr):
+        """Count the number of matching elements (element-wise) between this array and another NumPy array."""
+        # TODO: Ensure shape matching before element-wise comparison
+        if self.data.shape != arr.shape:
+            raise ValueError("Arrays must have the same shape for element-wise comparison.")
+        return # TODO: Complete this code
 
     def flatten(self):
         """Flatten the array (without np.flatten)."""
@@ -33,16 +44,11 @@ class NumPyArray:
 
     def unique(self):
         """Find unique elements without np.unique."""
-        # TODO: Create a mask to find unique elements efficiently
-        sorted_arr = np.sort(self.data.flatten())
-        mask = np.concatenate(([True], sorted_arr[1:] != sorted_arr[:-1]))
-        return sorted_arr[mask]
-
+        return # TODO: Return the number of unique elements in our array
 
     def min_max_normalization(self):
         """Normalize the array between 0 and 1 using Min-Max normalization"""
         return # TODO 
-
 
     def elementwise_multiplication(self, other):
         """Perform element-wise multiplication (without using np.multiply)."""
@@ -57,22 +63,3 @@ class NumPyArray:
     def broadcasting_multiplication(self, other):
         """Perform broadcasting multiplication (without using np.multiply)."""
         return # TODO: Perform broadcasting multiplication
-
-# Sample Test Cases
-arr = NumPyArray([[1, 2, 3], [4, 5, 6]])
-print(arr.shape())          # Expected: (2, 3)
-print(arr.mean())           # Expected: (sum of all elements) / total elements
-print(arr.standard_deviation())  # Expected: Std computation
-arr.insert(1, 99)           # Insert 99 at index 1
-print(arr)
-print(arr.flatten())        # Convert to 1D array
-print(arr.unique())         # Return unique values
-print(arr.moving_average(2))  # Compute moving average with window size 2
-print(arr.min_max_normalization())  # Normalize array
-
-# Additional test cases
-arr1 = NumPyArray([1, 2, 3])
-arr2 = NumPyArray([4, 5, 6])
-print(arr1.elementwise_multiplication(arr2))  # Element-wise multiplication
-print(arr1.broadcasting_addition(arr2))       # Broadcasting addition
-print(arr1.broadcasting_multiplication(arr2)) # Broadcasting multiplication

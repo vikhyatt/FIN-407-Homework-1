@@ -21,7 +21,8 @@ class CustomList:
 
     def append(self, value):
         """Add a value to the end of the list."""
-        # TODO: Implement append without using Python lists
+        # TODO: Implement append without using list.append()
+        return None
 
     def pop(self):
         """Remove and return the last element of the list"""
@@ -43,6 +44,7 @@ class CustomList:
             raise IndexError("Index out of range")
         
         # TODO: Implement index-based assignment. Do not return anything
+        return None
 
     def insert(self, index, value):
         """Insert value at a specific index."""
@@ -52,12 +54,13 @@ class CustomList:
             index = len(self)
 
         # TODO: Implement insert (without using `list.insert`). Hint: Use slicing of Python lists
+        return None
 
     def remove(self, value):
         """Remove the first occurrence of value."""
         for i in range(len(self)):
             if self[i] == value:
-                __________  # TODO: Remove value from self.data
+                __________  # TODO: Remove value from self.data and modify self.data inplace
                 return None
         raise ValueError(f"{value} not in list")
 
@@ -70,14 +73,13 @@ class CustomList:
                 if self[j] < self[min_idx]:
                     min_idx = j
             __________  # TODO: Swap elements at i and min_idx
+            
+        return None
 
     def reverse(self):
         """Reverse the order of elements."""
-        left, right = 0, len(self) - 1
-        while left < right:
-            __________  # TODO: Swap left and right elements
-            left += 1
-            right -= 1
+        # TODO: Reverse the list inplace. You can use a for loop as well as indexing 
+        return None
 
     def __iter__(self):
         """Make the class iterable."""
@@ -100,4 +102,4 @@ class CustomList:
         """Concatenate two CustomLists (overloading `+` operator)."""
         if not isinstance(other, CustomList):
             raise TypeError("Can only concatenate CustomList with CustomList")
-        return  # TODO: Implement concatenation
+        return  # TODO: Implement concatenation without using "+" operator
