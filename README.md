@@ -20,6 +20,13 @@ This task introduces you to NumPy arrays and their operations. You will complete
 
 In this task, you will work with a Pandas DataFrame to process student data. The StudentDataProcessor class helps clean and analyze student records.
 
+## Getting Started
+
+* Start by cloning this repository onto your local machine
+* Download the required libraries on your Conda environment from the `requirements.txt` file in the repository as:
+  `pip install -r requirements.txt`
+* Start Coding!
+
 ## Submission
 
 ## Evaluation
