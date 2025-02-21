@@ -4,19 +4,15 @@ Welcome to Homework 1 of FIN-407! This assignment is designed to help you get co
 
 ## Overview
 
-This repository contains three Python files: `task1.py`, `task2.py`, and `task3.py`. Each file presents a different challenge related to Python and its libraries. Your job is to complete the missing parts of the code marked with `# TODO`. This assignment will test your understanding of basic Python functionalities, NumPy operations, and data manipulation using Pandas.
+This repository contains two Python files: `task1.py` and `task2.py`. Each file presents a different challenge related to Python and its libraries. Your job is to complete the missing parts of the code marked with `# TODO`. This assignment will test your understanding of basic Python functionalities, NumPy operations, and data manipulation using Pandas.
 
 ## Tasks
 
-### Task 1:  Implementing a Custom List (`task1.py`) [40 points]
-
-In this task, you will implement a custom list class called CustomList, mimicking some of the behavior of Python's built-in list. You will work with dunder (magic) methods to enable operations like indexing, length retrieval, and string representation.
-
-### Task 2: NumPy Operations (`task2.py`) [30 points]
+### Task 1: NumPy Operations (`task2.py`) [30 points]
 
 This task introduces you to NumPy arrays and their operations. You will complete the NumPyArray class, which wraps around a NumPy array and provides various functionalities.
 
-### Task 3: Data Processing with Pandas (`task3.py`) [30 points]
+### Task 2: Data Processing with Pandas (`task3.py`) [30 points]
 
 In this task, you will work with a Pandas DataFrame to process student data. The StudentDataProcessor class helps clean and analyze student records.
 
