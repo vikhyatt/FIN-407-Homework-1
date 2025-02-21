@@ -24,6 +24,7 @@ In this task, you will work with a Pandas DataFrame to process student data. The
 
 * Start by cloning this repository onto your local machine
 * Download the required libraries on your Conda environment from the `requirements.txt` file in the repository as:
+  
   `pip install -r requirements.txt`
 * Start Coding!
 
