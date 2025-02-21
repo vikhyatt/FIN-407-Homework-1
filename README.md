@@ -30,7 +30,11 @@ In this task, you will work with a Pandas DataFrame to process student data. The
 
 ## Submission
 
+For submitting the assignment, you need to complete the `.py` files make a new repository in the GitHub classroom. Then, you need to commit your completed files to this new repository. Make sure your code is free of any Compilation errors.
+
 ## Evaluation
+
+The Homework will be evaluated based on the correctness of your solutions. We will be releasing some sample test cases so that you can check if your solution is working as intended. After submission, we would be running your code on Hidden (unseen) test cases. The grade of the assignment will be decided by the number of test cases your code passes.
 
 ## Notes
 
