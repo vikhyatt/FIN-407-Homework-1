@@ -38,9 +38,7 @@ class NumPyArray:
 
     def dot(self, other):
         """Compute dot product without np.dot()."""
-        if self.data.shape[-1] != other.data.shape[0]:
-            raise ValueError("Shapes do not align for dot product.")
-        return # TODO: Implement dot product using matrix multiplication rules
+        return # TODO: Replicate the np.dot function without using the np.dot function. Hint: You can use np.tensordot
 
     def unique(self):
         """Find unique elements without np.unique."""
